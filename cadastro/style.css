@@ -65,6 +65,30 @@ button {
   color: white;
 }
 
+.botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  gap: 50px;
+}
+
 button:hover {
   border: 2px solid white;
+}
+
+
+.inputs-radios {
+  display: flex;
+  align-items: center;
+  width: 350px;
+}
+
+label {
+  margin-left: 0px;
+  margin-right: 100px;
+}
+
+#radio {
+  height: 20px;
 }
