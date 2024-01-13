@@ -5,6 +5,7 @@
   font-family:  Arial, Helvetica, sans-serif;
 }
 
+
 .container-flex {
   display: flex;
   align-items: center;
@@ -88,6 +89,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 650px;
 }
 
 .container-cards {
@@ -95,8 +97,8 @@ main {
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   height: 450px;
   width: 100%;
   background-color: #C6E3F3;
@@ -187,4 +189,66 @@ footer {
   display: flex;
   gap: 10px;
   cursor: pointer;
+}
+
+
+
+/*estilo da segunda página */
+
+.containter-inputs {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+  border: 5px solid white;
+  border-radius: 10px;
+  height: 360px;
+  width: 90%;
+}
+
+.inputs-cards {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  width: 350px;
+  height: 40px;
+  border: none;
+  border-radius: 1px;
+}
+.comentarios {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-imagens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#botao {
+  width: 150px;
+  height: 40px;
+  background-color: #618AF4;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+}
+
+#botao:hover {
+  border: 2px solid white;
 }
