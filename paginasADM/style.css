@@ -252,3 +252,20 @@ input {
 #botao:hover {
   border: 2px solid white;
 }
+
+
+.CARD {
+  margin: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 230px;
+  font-size: 30px;
+  gap: 50px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+}
