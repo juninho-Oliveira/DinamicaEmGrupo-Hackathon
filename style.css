@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family:  Arial, Helvetica, sans-serif;
+}
+
+.container-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+header {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  background-color: #C6E3F3;
+  height: 70px;
+}
+
+.container-perfil {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+}
+
+.perfil img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.pesquis {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pesquis img{
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.pesquis input {
+  width: 350px;
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+}
+
+nav  {
+  display: flex;
+}
+
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  gap: 50px;
+}
+
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  
+}
+
+a:hover {
+  color: white;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 450px;
+  width: 100%;
+  background-color: #C6E3F3;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 100%;
+  gap: 30px;
+
+}
+
+.cards-eventos {
+  width: 340px;
+  height: 340px;
+}
+
+.eventos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  gap: 10px;
+  background-color: white;
+}
+
+.textoP {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.eventos p  {
+  font-size: 13px;
+}
+
+.quantidade {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+button {
+  width: 80px;
+  height: 25px;
+  background-color: #618AF4;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  color: white;
+}
+
+footer {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  background-color: #C6E3F3;
+  height: 70px;
+}
+
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.redes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+
+.redes img {
+  width: 20px;
+  cursor: pointer;
+}
+
+.mapa {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
