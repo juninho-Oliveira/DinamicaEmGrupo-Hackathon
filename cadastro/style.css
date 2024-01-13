@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  background-color: #C7E1E5;
+  height: 48em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 35px; /*tamanho da fonte*/
+  margin-bottom: 20px;/*tamanho da margi de baixo*/
+  font-family:  Arial, Helvetica, sans-serif;
+}
+
+.Cadastro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.cards-inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 3px solid #ffff;
+  border-radius: 10px;
+  width: 450px;
+  height: 450px;
+  background-color: #9ed6f5;
+  gap: 30px;
+}
+
+.nomeSenha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+input {
+  width: 350px;
+  height: 40px;
+  border: none;
+  border-radius: 1px;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  background-color: #618AF4;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+}
+
+button:hover {
+  border: 2px solid white;
+}
