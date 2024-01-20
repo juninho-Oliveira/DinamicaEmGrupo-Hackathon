@@ -3,7 +3,7 @@ function entrar(){
     let valor = document.getElementById('nome').value;
     const locaStorage = localStorage.setItem('key', valor);
    
-    window.location.href = "/index.html";
+    window.location.href = "/primeiraTelaUser/";
 
 }
   
