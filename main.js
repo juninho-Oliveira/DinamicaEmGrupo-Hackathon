@@ -1,9 +1,19 @@
+
+
+
+
 function entrar(){
 
+try {
+  
     let valor = document.getElementById('nome').value;
     const locaStorage = localStorage.setItem('key', valor);
-   
+
     window.location.href = "/primeiraTelaUser/";
+
+} catch (error) {
+    console.log('Error', error)
+} 
 
 }
   
