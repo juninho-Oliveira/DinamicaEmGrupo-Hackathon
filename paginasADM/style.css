@@ -270,3 +270,47 @@ input {
   display: flex;
   gap: 20px;
 }
+
+.lista{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+  height: 80%;
+  background-color: white;
+}
+
+.lista-email {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+  height: 80%;
+  background-color: white;
+  flex-direction: column;
+}
+
+.cards-lista {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cards-lista input {
+  width: 20px;
+}
+
+.cards-email  {
+  width: 90%;
+  height: 80%;
+  font-size: 20px;
+  display: flex;
+  gap: 30px;
+}
+
+ol {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
