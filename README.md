@@ -2,7 +2,7 @@
 
 <a href="https://dinamica-em-grupo-hackathon-ford-enter.vercel.app/"> Link do site</a>
 
-<img href="/img/tela.jpg" >
+<img src="/img/tela.jpg" >
 
 
 ## Descrição do Projeto
