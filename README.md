@@ -2,7 +2,7 @@
 
 <a href="https://dinamica-em-grupo-hackathon-ford-enter.vercel.app/"> Link do site</a>
 
-<img href="/img/tela.jpg" style="width: 300px;">
+<img href="/img/tela.jpg" >
 
 
 ## Descrição do Projeto
@@ -40,4 +40,4 @@ Cada Sprint tem a duração de 8 horas, com entregas a cada duas aulas. Cada Spr
 
 -<a href="https://trello.com/b/dF7KZFaw/tech-inovation?authuser=0"> Trello </a>
 
--<a herf="https://www.figma.com/file/yK6Qe6ZP4YlTXXZC6xZxtV/projeto-escola?type=design&node-id=0-1&mode=design">Figma
+-<a herf="https://www.figma.com/file/yK6Qe6ZP4YlTXXZC6xZxtV/projeto-escola?type=design&node-id=0-1&mode=design">Figma</a>
