@@ -40,4 +40,4 @@ Cada Sprint tem a duração de 8 horas, com entregas a cada duas aulas. Cada Spr
 
 -<a href="https://trello.com/b/dF7KZFaw/tech-inovation?authuser=0"> Trello </a>
 
--<a herf="https://www.figma.com/file/yK6Qe6ZP4YlTXXZC6xZxtV/projeto-escola?type=design&node-id=0-1&mode=design">Figma</a>
+-<a href="https://www.figma.com/file/yK6Qe6ZP4YlTXXZC6xZxtV/projeto-escola?type=design&node-id=0-1&mode=design">Figma</a>
